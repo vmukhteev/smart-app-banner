@@ -57,7 +57,6 @@ var SmartBanner = function (options) {
 		theme: '', // put platform type ('ios', 'android', etc.) here to force single theme on all device
 		icon: '', // full path to icon image if not using website icon image
 		force: '', // put platform type ('ios', 'android', etc.) here for emulation
-
 	}, options || {});
 
 	if (this.options.force) {
@@ -89,7 +88,7 @@ var SmartBanner = function (options) {
 	var userDismissed = cookie.get(this.appId + '-smartbanner-closed');
 	var userInstalled = cookie.get(this.appId + '-smartbanner-installed');
 
-	if (isMobileSafari || runningStandAlone || userDismissed || userInstalled) {
+	if ((isMobileSafari && this.options.ajaxId) || runningStandAlone || userDismissed || userInstalled) {
 		return;
 	}
 

@@ -45,6 +45,6 @@
   },
   "devDependencies": {
     "browserify": "^16.2.2",
-    "closurecompiler": "^1.6.1"
+    "google-closure-compiler": "^20200830.0.0"
   }
 }
