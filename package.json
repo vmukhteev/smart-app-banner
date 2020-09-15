@@ -1,6 +1,6 @@
 {
-  "name": "smart-app-banner",
-  "version": "2.0.0",
+  "name": "@vmukhteev/smart-app-banner",
+  "version": "2.0.1",
   "description": "Smart banner for Android or iOS",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/kudago/smart-app-banner.git"
+    "url": "https://github.com/vmukhteev/smart-app-banner.git"
   },
   "keywords": [
     "smart",
